@@ -1,0 +1,9 @@
+C:\Users\ADMIN\AppData\Local\Temporary Projects\objetos\bin\Debug\objetos.exe
+C:\Users\ADMIN\AppData\Local\Temporary Projects\objetos\bin\Debug\objetos.pdb
+C:\Users\ADMIN\AppData\Local\Temporary Projects\objetos\obj\x86\Debug\objetos.frmPrincipal.resources
+C:\Users\ADMIN\AppData\Local\Temporary Projects\objetos\obj\x86\Debug\objetos.Properties.Resources.resources
+C:\Users\ADMIN\AppData\Local\Temporary Projects\objetos\obj\x86\Debug\objetos.csproj.GenerateResource.Cache
+C:\Users\ADMIN\AppData\Local\Temporary Projects\objetos\obj\x86\Debug\objetos.exe
+C:\Users\ADMIN\AppData\Local\Temporary Projects\objetos\obj\x86\Debug\objetos.pdb
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\objetos\objetos\obj\x86\Debug\objetos.exe
+C:\Users\ADMIN\Documents\Visual Studio 2010\Projects\objetos\objetos\obj\x86\Debug\objetos.pdb
