@@ -31,5 +31,56 @@ namespace Vector
             v.adicionar(x);
             mostrarVector();
         }
+
+        private void MostrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            mostrarVector();
+        }
+
+        private void invertirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            v.invertir();
+            mostrarVector();
+        }
+
+        private void cantparesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int c = v.cantpares();
+            MessageBox.Show("cant. de elementos pares: " + c.ToString() );
+        }
+
+        private void ordenarDeMenorAMayorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            v.OrdenarMenorAmayor();
+            mostrarVector();
+        }
+
+        private void eliminarPToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int p = Convert.ToInt16(txtvalor.Text);
+            v.EliminarElementoPos(p);
+            mostrarVector();
+        }
+
+        private void invertirCadaElementoVectorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            v.invertirCadaElementoVector();
+            mostrarVector();
+        }
+
+        private void elementosPrimosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int c = v.ElementosPrimo();
+            MessageBox.Show("cantidad de elementos primos: " + c.ToString());
+        }
+
+        private void elementoCapicuaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int c = v.ElementosCapicua();
+            MessageBox.Show("cantidad de elemento capicua: " + c.ToString());
+
+        }
+
+   
     }
 }
